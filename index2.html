@@ -2,7 +2,7 @@
 <html lang="zh">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, initial-scale=1, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <title>递纸条</title>
     <style>
         /* Reset margin & padding to prevent spacing issues */
@@ -11,13 +11,28 @@
             padding: 0;
             height: 100%;
             overflow: hidden; /* Prevent scrolling outside the iframe */
+            font-family: Arial, sans-serif; /* Use a clean, modern font */
+            background-color: #f9f9f9; /* Light background color for contrast */
         }
+
+        /* Banner styling */
+        #banner {
+            text-align: center;
+            color: #FF69B4; /* Proper hex color for a pink shade */
+            background-color: #fff; /* White background for better readability */
+            padding: 20px;
+            border: 2px solid #FF69B4; /* Add a border matching the text color */
+            border-radius: 10px; /* Rounded corners for a modern look */
+            width: 80%; /* Adjust width for responsiveness */
+            margin: 20px auto; /* Center the banner horizontally */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+            font-size: 18px; /* Adjust text size */
+        }
+    </style>
 </head>
 <body>
-
-    <div id="banner" style="text-align: center; color: ##FF69B4; padding: 20px;">
+    <div id="banner">
         本次活动已结束
     </div>
-
 </body>
 </html>
